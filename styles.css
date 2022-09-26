@@ -1,0 +1,105 @@
+:root {
+  --red: hsl(1, 90%, 64%);
+  --blue: hsl(219, 85%, 26%);
+  --white: hsl(0, 0%, 100%);
+  --very-light-grayish-blue: hsl(210, 60%, 98%);
+  --light-grayish-blue-1: hsl(211, 68%, 94%);
+  --light-grayish-blue-2: hsl(205, 33%, 90%);
+  --grayish-blue: hsl(219, 14%, 63%);
+  --dark-grayish-blue: hsl(219, 12%, 42%);
+  --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+@font-face {
+  font-family: Jakarta;
+  src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf)
+    format("truetype-variations");
+  font-weight: 100 900;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 15px;
+  padding: 1rem;
+  font-family: Jakarta;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 90%;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.unreadNotis {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.21rem;
+}
+
+.notificationContainerUnread {
+  display: flex;
+  color: var(--grayish-blue);
+  background-color: var(--very-light-grayish-blue);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+}
+
+.notificationContainerRead {
+  display: flex;
+  color: var(--grayish-blue);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+}
+
+.userName {
+  font-weight: bold;
+  color: var(--very-dark-blue);
+}
+
+.unreadPin {
+  display: inline-block;
+  background-color: var(--red);
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.privateMessage {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid var(--light-grayish-blue-2);
+}
+
+.accentGrey {
+  color: var(--dark-grayish-blue);
+  font-weight: 550;
+}
+
+.accentBlue {
+  color: var(--blue);
+  font-weight: 550;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.post-preview {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0rem 0.5rem;
+  margin-left: auto;
+}

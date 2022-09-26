@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <span>Notifications <span class="unreadNotis">3</span></span>
+      <span>Mark all as read</span>
+    </div>
+
+    <div class="notificationContainerUnread">
+      <img
+        src="./assets/images/avatar-mark-webber.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Mark Webber</span> reacted to your recent post
+        <span class="accentGrey">My first tournament today!</span>
+        <div class="unreadPin"></div>
+        <div>1m ago</div>
+      </div>
+    </div>
+
+    <div class="notificationContainerUnread">
+      <img
+        src="./assets/images/avatar-angela-gray.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Angela Gray</span> followed you
+        <span class="unreadPin"></span>
+        <div>5m ago</div>
+      </div>
+    </div>
+
+    <div class="notificationContainerUnread">
+      <img
+        src="./assets/images/avatar-jacob-thompson.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Jacob Thompson</span> has joined your group
+        <span class="accentBlue">Chess Club.</span>
+        <span class="unreadPin"></span>
+        <div>1 day ago</div>
+      </div>
+    </div>
+
+    <div class="notificationContainerRead">
+      <img
+        src="./assets/images/avatar-rizky-hasanuddin.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Rizky Hasanuddin</span> sent you a private
+        message
+        <div>5 days ago</div>
+        <div class="privateMessage">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </div>
+      </div>
+    </div>
+
+    <div class="notificationContainerRead">
+      <img
+        src="./assets/images/avatar-kimberly-smith.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Kimberly Smit</span> commented on your picture
+        <div>1 week ago</div>
+      </div>
+      <img
+        class="post-preview"
+        src="./assets/images/image-chess.webp"
+        alt="image-chess"
+      />
+    </div>
+
+    <div class="notificationContainerRead">
+      <img
+        src="./assets/images/avatar-nathan-peterson.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Nathan Peterson</span>
+        reacted to your recent post
+        <span class="accentGrey"
+          >5 end-game strategies to increase your win rate</span
+        >
+        <div>2 weeks ago</div>
+      </div>
+    </div>
+
+    <div class="notificationContainerRead">
+      <img
+        src="./assets/images/avatar-anna-kim.webp"
+        class="avatar"
+        alt="avatar-mark-webber"
+      />
+      <div>
+        <span class="userName">Anna Kim</span> left the group
+        <span class="accentBlue">Chess Club.</span>
+        <div>2 weeks ago</div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">David Pardo</a>.
+    </div>
+  </body>
+</html>
